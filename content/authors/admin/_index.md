@@ -16,8 +16,8 @@ role: PhD Student
 organizations:
   - name: University of Edinburgh, UK
     url: https://www.ed.ac.uk/
-  - name: University of Bari Aldo Moro, Italy
-    url: https://www.uniba.it/en/
+#  - name: University of Bari Aldo Moro, Italy
+#    url: https://www.uniba.it/en/
 
 # Short bio (displayed in user profile at end of posts)
 #bio: enter the bio here
