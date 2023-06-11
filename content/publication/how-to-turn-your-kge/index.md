@@ -1,5 +1,5 @@
 ---
-title: 'Your Knowledge Graph Embeddings are Secretly Circuits and You Should Treat Them as Such'
+title: 'How to Turn Your Knowledge Graph Embeddings into Generative Models via Probabilistic Circuits'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -14,23 +14,23 @@ authors:
 #author_notes:
 #  - 'Equal contribution'
 
-date: '2022-08-31T00:00:00Z'
+date: '2023-05-25T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2022-09-16T00:00:00Z'
+publishDate: '2023-05-25T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent; 9 = Workshop paper
-publication_types: ['9']
+publication_types: ['3']
 
 # Publication name and optional abbreviated publication name.
-publication: In *5th Workshop on Tractable Probabilistic Modeling at UAI (TPM 2022)*
-publication_short: In *TPM 2022*
+publication: On *arXiv* (cs.LG,cs.AI)
+publication_short: On *arXiv*
 
-abstract: Some of the most popular and successful knowledge graph embedding (KGE) models---CP, ComplEx, RESCAL and TuckER---encode tensor factorizations that define an energy-based score over subject-relation-object triples. As such, they are not amenable to efficient maximum-likelihood training, and do not easily allow to sample triples nor answering complex queries in a principled probabilistic way. In this paper, we show how all these models can be readily interpreted as constrained computational graphs---circuits---and show how, by some minor modifications, one can turn them into tractable generative models of triples. This novel perspective not only fixes many of the aforementioned shortcomings of KGE models, but helps understand why recent learning strategies for KGE are successful while suggesting interesting new ones.
+abstract: Some of the most successful knowledge graph embedding (KGE) models for link prediction -- CP, RESCAL, TuckER, ComplEx -- can be interpreted as energy-based models. Under this perspective they are not amenable for exact maximum-likelihood estimation (MLE), sampling and struggle to integrate logical constraints. This work re-interprets the score functions of these KGEs as circuits -- constrained computational graphs allowing efficient marginalisation. Then, we design two recipes to obtain efficient generative circuit models by either restricting their activations to be non-negative or squaring their outputs. Our interpretation comes with little or no loss of performance for link prediction, while the circuits framework unlocks exact learning by MLE, efficient sampling of new triples, and guarantee that logical constraints are satisfied by design. Furthermore, our models scale more gracefully than the original KGEs on graphs with millions of entities. 
 
 # Summary. An optional shortened abstract.
 #summary:
@@ -48,7 +48,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://openreview.net/forum?id=2bjCZdGyEGE'
+url_pdf: 'https://arxiv.org/abs/2305.15944'
 url_code: ''
 url_dataset: ''
 url_poster: ''
