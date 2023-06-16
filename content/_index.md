@@ -156,7 +156,7 @@ sections:
   - block: portfolio
     id: projects
     content:
-      title: Code Projects 
+      title: Coding 
       filters:
         folders:
           - project
