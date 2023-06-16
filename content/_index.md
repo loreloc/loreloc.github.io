@@ -123,7 +123,7 @@ sections:
         featured_only: true
     design:
       columns: '2'
-      view: compact
+      view: citation
   #- block: collection
   #  content:
   #    title: Recent Publications
@@ -156,7 +156,7 @@ sections:
   - block: portfolio
     id: projects
     content:
-      title: Projects
+      title: Code Projects 
       filters:
         folders:
           - project
@@ -178,8 +178,8 @@ sections:
           tag: Statistical Releational Learning
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
-      view: showcase
+      columns: '2'
+      view: showcase 
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
   - block: contact

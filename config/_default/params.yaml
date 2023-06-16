@@ -6,9 +6,9 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
+  theme_day: minimal 
   #theme_night: minimal
-  font: minimal
+  font: classic
   font_size: M
 
 # SEO
@@ -68,7 +68,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/loreloc/website'
+    url: 'https://github.com/loreloc/loreloc.github.io'
     content_dir: content
     branch: main
   avatar:
