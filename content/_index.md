@@ -114,13 +114,13 @@ sections:
   #    view: compact
   #    columns: '2'
   - block: collection
-    id: featured
+    id: publications 
     content:
       title: Publications
       filters:
         folders:
           - publication
-        featured_only: true
+        featured_only: false
     design:
       columns: '2'
       view: citation
@@ -154,12 +154,12 @@ sections:
   #  design:
   #    columns: '2'
   - block: portfolio
-    id: projects
+    id: coding
     content:
       title: Coding 
       filters:
         folders:
-          - project
+          - coding
       # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
       default_button_index: 0
       # Filter toolbar (optional).
