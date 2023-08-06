@@ -51,7 +51,7 @@ featured: true
 url_pdf: 'https://arxiv.org/abs/2305.15944'
 url_code: ''
 url_dataset: ''
-url_poster: ''
+url_poster: 'poster.pdf'
 url_project: ''
 url_slides: ''
 url_source: ''

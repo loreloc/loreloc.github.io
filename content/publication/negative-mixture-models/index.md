@@ -1,24 +1,24 @@
 ---
-title: 'Your Knowledge Graph Embeddings are Secretly Circuits and You Should Treat Them as Such'
+title: 'Negative Mixture Models via Squaring: Representation and Learning'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Nicola Di Mauro
-  - Robert Peharz
+  - Stefan Mengel
+  - Nicolas Gillis
   - Antonio Vergari
 
 # Author notes (optional)
 #author_notes:
 #  - 'Equal contribution'
 
-date: '2022-08-31T00:00:00Z'
+date: '2023-07-13T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2022-09-16T00:00:00Z'
+publishDate: '2023-07-13T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -27,10 +27,10 @@ publishDate: '2022-09-16T00:00:00Z'
 publication_types: ['9']
 
 # Publication name and optional abbreviated publication name.
-publication: In *5th Workshop on Tractable Probabilistic Modeling at UAI (TPM 2022)*
-publication_short: In *TPM 2022*
+publication: In *6th Workshop on Tractable Probabilistic Modeling at UAI (TPM 2023)*
+publication_short: In *TPM 2023*
 
-abstract: Some of the most popular and successful knowledge graph embedding (KGE) models---CP, ComplEx, RESCAL and TuckER---encode tensor factorizations that define an energy-based score over subject-relation-object triples. As such, they are not amenable to efficient maximum-likelihood training, and do not easily allow to sample triples nor answering complex queries in a principled probabilistic way. In this paper, we show how all these models can be readily interpreted as constrained computational graphs---circuits---and show how, by some minor modifications, one can turn them into tractable generative models of triples. This novel perspective not only fixes many of the aforementioned shortcomings of KGE models, but helps understand why recent learning strategies for KGE are successful while suggesting interesting new ones.
+abstract: Negative mixture models (NMMs) can potentially be more expressive than classical non-negative ones by allowing negative coefﬁcients, thus greatly reducing the number of components and parameters to ﬁt. However, modeling NMMs features a number of challenges, from ensuring that negative combinations still encode valid densities or masses, to effectively learning them from data. In this paper, we investigate how we can model both shallow and hierarchical NMMs in a generic framework, via squaring. We do so by representing NMMs as probabilistic circuits (PCs) – structured computational graphs that ensure tractability. Then, we show when and how we can represent these squared NMMs as tensorized computational graphs efﬁciently, while theoretically proving that for certain function classes including negative parameters can exponentially reduce the model size.
 
 # Summary. An optional shortened abstract.
 #summary:
@@ -38,7 +38,6 @@ abstract: Some of the most popular and successful knowledge graph embedding (KGE
 tags:
   - Probabilistic ML
   - Probabilistic Circuits
-  - Statistical Relational Learning
 
 # Display this page in the Featured widget?
 featured: true
@@ -48,14 +47,14 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://openreview.net/forum?id=2bjCZdGyEGE'
+url_pdf: 'https://openreview.net/forum?id=uTAzte88a2'
 url_code: ''
 url_dataset: ''
 url_poster: 'poster.pdf'
 url_project: ''
 url_slides: ''
 url_source: ''
-url_video: ''
+url_video: 'https://www.youtube.com/watch?v=kVqYnrUV3y8&list=PLhxphuSjWkTnjT_iTlEdggV5htPp5UvKD&index=13'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
