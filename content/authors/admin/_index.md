@@ -75,7 +75,7 @@ highlight_name: true
 
 <div style="text-align: justify">
 
-Hi! I am a PhD Student at the [Institute for Adaptive and Neural Computation](https://web.inf.ed.ac.uk/anc) in Edinburgh, supervised by [Dr. Antonio Vergari](http://nolovedeeplearning.com) and [Dr. Iain Murray](https://homepages.inf.ed.ac.uk/imurray2/).
+Hi! I am a PhD Student at the [Institute for Adaptive and Neural Computation](https://web.inf.ed.ac.uk/anc) and part of the [APRIL research lab](http://april-tools.github.io/) in Edinburgh, supervised by [Dr. Antonio Vergari](http://nolovedeeplearning.com) and [Dr. Iain Murray](https://homepages.inf.ed.ac.uk/imurray2/).
 
 My research interests include (deep) (tractable) probabilistic models, neurosymbolic AI, and anything that can be found at their intersection.
 
