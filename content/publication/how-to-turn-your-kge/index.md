@@ -14,7 +14,7 @@ authors:
 #author_notes:
 #  - 'Equal contribution'
 
-date: '2023-05-25T00:00:00Z'
+date: '2023-09-22T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -24,11 +24,13 @@ publishDate: '2023-05-25T00:00:00Z'
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent; 9 = Workshop paper
-publication_types: ['3']
+publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: On *arXiv* (cs.LG,cs.AI)
-publication_short: On *arXiv*
+#publication: On *arXiv* (cs.LG,cs.AI)
+#publication_short: On *arXiv*
+publication: NeurIPS 2023 **(Oral)**
+publication_short: NeurIPS 2023 **(Oral)**
 
 abstract: Some of the most successful knowledge graph embedding (KGE) models for link prediction -- CP, RESCAL, TuckER, ComplEx -- can be interpreted as energy-based models. Under this perspective they are not amenable for exact maximum-likelihood estimation (MLE), sampling and struggle to integrate logical constraints. This work re-interprets the score functions of these KGEs as circuits -- constrained computational graphs allowing efficient marginalisation. Then, we design two recipes to obtain efficient generative circuit models by either restricting their activations to be non-negative or squaring their outputs. Our interpretation comes with little or no loss of performance for link prediction, while the circuits framework unlocks exact learning by MLE, efficient sampling of new triples, and guarantee that logical constraints are satisfied by design. Furthermore, our models scale more gracefully than the original KGEs on graphs with millions of entities. 
 
@@ -59,10 +61,10 @@ url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-#image:
-#  caption: ''
-#  focal_point: ''
-#  preview_only: false
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
