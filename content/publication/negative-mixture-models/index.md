@@ -27,8 +27,8 @@ publishDate: '2023-07-13T00:00:00Z'
 publication_types: ['9']
 
 # Publication name and optional abbreviated publication name.
-publication: In *6th Workshop on Tractable Probabilistic Modeling at UAI (TPM 2023)*
-publication_short: In *TPM 2023*
+publication: 6th Workshop on Tractable Probabilistic Modeling at UAI (TPM 2023)
+publication_short: TPM 2023
 
 abstract: Negative mixture models (NMMs) can potentially be more expressive than classical non-negative ones by allowing negative coefﬁcients, thus greatly reducing the number of components and parameters to ﬁt. However, modeling NMMs features a number of challenges, from ensuring that negative combinations still encode valid densities or masses, to effectively learning them from data. In this paper, we investigate how we can model both shallow and hierarchical NMMs in a generic framework, via squaring. We do so by representing NMMs as probabilistic circuits (PCs) – structured computational graphs that ensure tractability. Then, we show when and how we can represent these squared NMMs as tensorized computational graphs efﬁciently, while theoretically proving that for certain function classes including negative parameters can exponentially reduce the model size.
 
@@ -36,7 +36,7 @@ abstract: Negative mixture models (NMMs) can potentially be more expressive than
 #summary:
 
 tags:
-  - Probabilistic ML
+  - Tractable Inference
   - Probabilistic Circuits
 
 # Display this page in the Featured widget?
@@ -58,10 +58,10 @@ url_video: 'https://www.youtube.com/watch?v=kVqYnrUV3y8&list=PLhxphuSjWkTnjT_iTl
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
+#image:
+#  caption: ''
+#  focal_point: ''
+#  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.

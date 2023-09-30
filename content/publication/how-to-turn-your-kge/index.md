@@ -38,9 +38,9 @@ abstract: Some of the most successful knowledge graph embedding (KGE) models for
 #summary:
 
 tags:
-  - Probabilistic ML
-  - Probabilistic Circuits
   - Statistical Relational Learning
+  - Tractable Inference
+  - Probabilistic Circuits
 
 # Display this page in the Featured widget?
 featured: true

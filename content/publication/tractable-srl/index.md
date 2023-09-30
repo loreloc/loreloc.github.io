@@ -27,8 +27,8 @@ publishDate: '2022-09-16T00:00:00Z'
 publication_types: ['9']
 
 # Publication name and optional abbreviated publication name.
-publication: In *5th Workshop on Tractable Probabilistic Modeling at UAI (TPM 2022)*
-publication_short: In *TPM 2022*
+publication: 5th Workshop on Tractable Probabilistic Modeling at UAI (TPM 2022)
+publication_short: TPM 2022
 
 abstract: Some of the most popular and successful knowledge graph embedding (KGE) models---CP, ComplEx, RESCAL and TuckER---encode tensor factorizations that define an energy-based score over subject-relation-object triples. As such, they are not amenable to efficient maximum-likelihood training, and do not easily allow to sample triples nor answering complex queries in a principled probabilistic way. In this paper, we show how all these models can be readily interpreted as constrained computational graphs---circuits---and show how, by some minor modifications, one can turn them into tractable generative models of triples. This novel perspective not only fixes many of the aforementioned shortcomings of KGE models, but helps understand why recent learning strategies for KGE are successful while suggesting interesting new ones.
 
@@ -36,9 +36,9 @@ abstract: Some of the most popular and successful knowledge graph embedding (KGE
 #summary:
 
 tags:
-  - Probabilistic ML
-  - Probabilistic Circuits
   - Statistical Relational Learning
+  - Tractable Inference
+  - Probabilistic Circuits
 
 # Display this page in the Featured widget?
 featured: true

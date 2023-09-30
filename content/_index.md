@@ -170,12 +170,10 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Probabilistic ML
-          tag: Probabilistic ML
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Statistical Relational Learning
-          tag: Statistical Releational Learning
+        - name: Probabilistic Circuits
+          tag: Probabilistic Circuits
+        - name: Deep Generative Models
+          tag: Deep Generative Models
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '2'

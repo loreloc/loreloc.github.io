@@ -2,8 +2,8 @@
 title: DeeProb-kit
 summary: A Python Library for Deep Probabilistic Modelling
 tags:
-  - Probabilistic ML
-  - Deep Learning
+  - Probabilistic Circuits
+  - Deep Generative Models
 date: '2022-12-08T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
