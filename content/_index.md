@@ -113,31 +113,32 @@ sections:
   #    # Choose a layout view
   #    view: compact
   #    columns: '2'
-  - block: collection
-    id: publications 
-    content:
-      title: Publications
-      filters:
-        folders:
-          - publication
-        featured_only: false
-    design:
-      columns: '2'
-      view: citation
   #- block: collection
+  #  id: publications 
   #  content:
-  #    title: Recent Publications
-  #    text: |-
-  #      {{% callout note %}}
-  #      Quickly discover relevant content by [filtering publications](./publication/).
-  #      {{% /callout %}}
+  #    title: Featured Publications
   #    filters:
   #      folders:
   #        - publication
-  #      exclude_featured: true
+  #      featured_only: true
   #  design:
   #    columns: '2'
   #    view: citation
+  - block: collection
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publication
+  #      exclude_featured: true
+        featured_only: true
+      text: |-
+        {{% callout note %}}
+        Discover more by [filtering](./publication/).
+        {{% /callout %}}
+    design:
+      columns: '2'
+      view: citation
   #- block: collection
   #  id: talks
   #  content:
