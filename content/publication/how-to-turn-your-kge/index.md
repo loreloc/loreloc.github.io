@@ -51,7 +51,7 @@ featured: true
 #   url: http://example.org
 
 url_pdf: 'https://arxiv.org/abs/2305.15944'
-url_code: ''
+url_code: 'https://github.com/april-tools/gekcs'
 url_dataset: ''
 url_poster: 'poster.pdf'
 url_project: ''
