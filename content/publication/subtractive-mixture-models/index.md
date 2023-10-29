@@ -51,7 +51,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'publication/subtractive-mixture-models/paper.pdf'
+url_pdf: 'https://arxiv.org/abs/2310.00724'
 url_code: ''
 url_dataset: ''
 url_poster: ''
