@@ -1,0 +1,9 @@
+<ul>
+    $for(publications)$
+        <li>
+            <b>$fauthors$</b>$if(rauthors)$, $rauthors$$endif$.
+            <a href="$url$">$title$</a>.
+            $venue$.$if(award)$ <b>$award$</b>.$endif$
+        </li>
+    $endfor$
+</ul>

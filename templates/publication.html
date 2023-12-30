@@ -1,0 +1,20 @@
+<article>
+    <section class="header">
+        Posted on $date$
+    </section>
+    <br/>
+    <section class="authors">
+        <b>$fauthors$</b>$if(rauthors)$, $rauthors$$endif$.
+    </section>
+    <br/>
+    <section class="venue">
+        $venue$.$if(award)$ <b>$award$</b>.$endif$
+    </section>
+    <section class="abstract">
+        <h2>Abstract</h2>
+        <p>$abstract$</p>
+    </section>
+    <section>
+        $body$
+    </section>
+</article>
