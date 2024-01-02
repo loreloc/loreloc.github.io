@@ -2,7 +2,7 @@
 title: Index
 ---
 
-<img src="/images/propic.png" style="float: left; width: 29%; margin: 0px 25px 0px 0px; border-radius: 50%"/>
+<img class="propic" src="/static/propic.png"/>
 
 <p style="text-align: justify; text-justify: inter-word;">
     Hi! I am a PhD Student at the [Institute for Adaptive and Neural Computation](https://web.inf.ed.ac.uk/anc) and part of the [APRIL research lab](http://april-tools.github.io/) in Edinburgh, supervised by [Dr. Antonio Vergari](http://nolovedeeplearning.com) and [Dr. Iain Murray](https://homepages.inf.ed.ac.uk/imurray2/). My research interests include (tractable) generative models, neurosymbolic AI, and anything that can be found at their intersection.
@@ -19,10 +19,9 @@ title: Index
     document.write("<a href=\"ma" + "il" + "to:" + "l." + "loconte" + "\x40" + "sms." + "ed.ac.u" + "k" + "\">" + "l." + "loconte" + "\x40" + "sms." + "ed.ac.u" + "k" + "<\/a>")
 </script>
 
-<br/>
+<b><a href="/static/cv.pdf">Curriculum Vitae</a></b>
 
 <h2>Publications</h2>
 For a complete list refer to the [Semantic Scholar profile](https://www.semanticscholar.org/author/Lorenzo-Loconte/2186995233).
+
 $partial("templates/publication-list.html")$
-
-

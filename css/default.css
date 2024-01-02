@@ -1,3 +1,12 @@
+/* CSS HEX */
+:root {
+  --color4: #ef476fff;
+  --color3: #ffd166ff;
+  --color2: #06d6a0ff;
+  --color1: #118ab2ff;
+  --color0: #073b4cff;
+}
+
 html {
   font-size: 67.0%;
   font-family: 'Myriad Pro', 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
@@ -39,12 +48,21 @@ footer {
   color: #666;
 }
 
+a {
+  color: var(--color1);
+  text-decoration: none;
+}
+
+a:hover{
+  color: color-mix(in hsl, var(--color1) 80%, var(--color4));
+}
+
 b {
   color: #222;
 }
 
 strong {
-  color: #cd0000;
+  color: var(--color4);
 }
 
 h1 {
@@ -53,13 +71,30 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #222;
 }
 
 h3 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: #222;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+li {
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+.tldr {
+  padding: 0.4rem 0rem 0rem 0rem;
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #333;
 }
 
 article .header {
@@ -68,22 +103,41 @@ article .header {
   color: #555;
 }
 
-article .authors {
+article .publinks {
   font-size: 1.6rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
 }
 
-article .venue {
-  font-size: 1.6rem;
-}
-
-article .abstract p {
-  font-size: 1.6rem;
+article .abstract {
+  font-size: 1.4rem;
+  color: #333;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .social {
   color: #111;
   font-size: 1.8rem;
   padding: 0rem 0.6rem 0rem 0.6rem;
+}
+
+.propic {
+  float: left;
+  width: 29%;
+  margin: 0px 1rem 0px 0px;
+  border-radius: 50%;
+}
+
+.spot {
+  width: 85%;
+  display: block;
+  margin: 0rem auto;
+}
+
+.publink {
+  margin-right: 3rem;
 }
 
 @media (max-width: 319px) {

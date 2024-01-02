@@ -14,19 +14,13 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "images/*" $ do
-        route   idRoute
-        compile copyFileCompiler
-
-    match "static/*" $ do
+    match "static/**" $ do
         route   idRoute
         compile  copyFileCompiler
 
-    -- match (fromList ["index.markdown"]) $ do
-    --     route   $ setExtension "html"
-    --     compile $ pandocCompiler
-    --         >>= loadAndApplyTemplate "templates/default.html" defaultContext
-    --         >>= relativizeUrls
+    match "js/*" $ do
+        route   idRoute
+        compile  copyFileCompiler
 
     match "publications/*" $ do
         route $ setExtension "html"
@@ -38,8 +32,6 @@ main = hakyll $ do
     match "index.markdown" $ do
         route   $ setExtension "html"
         compile $ do
-            -- >>= loadAndApplyTemplate "templates/default.html" defaultContext
-            -- >>= relativizeUrls
             publications <- recentFirst =<< loadAll "publications/*"
             let indexCtx =
                     listField "publications" publicationCtx (return publications) `mappend`
@@ -55,5 +47,5 @@ main = hakyll $ do
 
 publicationCtx :: Context String
 publicationCtx =
-    dateField "date" "%B %e, %Y" `mappend`
+    dateField "published" "%B %e, %Y" `mappend`
     defaultContext

@@ -1,9 +1,17 @@
 <ul>
     $for(publications)$
         <li>
-            <b>$fauthors$</b>$if(rauthors)$, $rauthors$$endif$.
-            <a href="$url$">$title$</a>.
+            <a href="$url$">$title$</a>
+            <br/>
             $venue$.$if(award)$ <strong>$award$</strong>.$endif$
+            <br/>
+            <b>$fauthors$</b>$if(rauthors)$, $rauthors$$endif$.
+            <br/>
+            <div class="tldr">
+                <b>tl;dr:</b> $tldr$
+            </div>
+
+            <img class="spot" src="$spotlink$"/>
         </li>
     $endfor$
 </ul>

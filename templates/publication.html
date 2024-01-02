@@ -1,20 +1,27 @@
 <article>
-    <section class="header">
-        Posted on $date$
-    </section>
-    <br/>
-    <section class="authors">
+    <section class="header">Posted on $published$</section>
+
+    <img class="spot" src="$spotlink$"/>
+
+    <section>
+        <h2>$title$</h2>
         <b>$fauthors$</b>$if(rauthors)$, $rauthors$$endif$.
-    </section>
-    <br/>
-    <section class="venue">
+        <br/>
         $venue$.$if(award)$ <strong>$award$</strong>.$endif$
     </section>
+
+    <br/>
+
+    <section class="publinks">
+        $if(paperlink)$<a class="publink" href="$paperlink$">Paper</a>$endif$
+        $if(posterlink)$<a class="publink" href="$posterlink$">Poster</a>$endif$
+        $if(slideslink)$<a class="publink" href="$slideslink$">Slides</a>$endif$
+    </section>
+
     <section class="abstract">
-        <h2>Abstract</h2>
-        <p style="text-align: justify; text-justify: inter-word;">$abstract$</p>
+        <h2 style="text-align: center;">Abstract</h2>
+        $abstract$
     </section>
-    <section>
-        $body$
-    </section>
+
+    <br/>
 </article>
