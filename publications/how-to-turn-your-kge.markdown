@@ -11,4 +11,5 @@ spotlink: /static/publications/how-to-turn-your-kge/spot.png
 paperlink: https://openreview.net/forum?id=RSGNGiB1q4
 posterlink: /static/publications/how-to-turn-your-kge/poster.pdf
 slideslink: /static/publications/how-to-turn-your-kge/slides.pdf
+bibtexsource: /static/publications/how-to-turn-your-kge/loconte2023how.bib
 ---

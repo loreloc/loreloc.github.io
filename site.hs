@@ -10,17 +10,17 @@ main = hakyll $ do
         route   idRoute
         compile compressCssCompiler
 
-    match "web-fonts/**" $ do
+    match "static/**" $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "static/**" $ do
-        route   idRoute
-        compile  copyFileCompiler
-
     match "js/*" $ do
         route   idRoute
-        compile  copyFileCompiler
+        compile copyFileCompiler
+
+    match "favicon.ico" $ do
+        route   idRoute
+        compile copyFileCompiler
 
     match "publications/*" $ do
         route $ setExtension "html"

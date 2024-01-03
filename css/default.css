@@ -91,7 +91,7 @@ li {
 }
 
 .tldr {
-  padding: 0.4rem 0rem 0rem 0rem;
+  padding: 0.6rem 0rem 0rem 0rem;
   font-size: 1.4rem;
   font-style: italic;
   color: #333;
@@ -108,6 +108,7 @@ article .publinks {
   font-weight: bold;
   display: flex;
   justify-content: flex-start;
+  padding: 0.8rem 0rem 0rem 0rem;
 }
 
 article .abstract {
@@ -119,13 +120,13 @@ article .abstract {
 
 .social {
   color: #111;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   padding: 0rem 0.6rem 0rem 0.6rem;
 }
 
 .propic {
   float: left;
-  width: 29%;
+  width: 30%;
   margin: 0px 1rem 0px 0px;
   border-radius: 50%;
 }
@@ -138,6 +139,13 @@ article .abstract {
 
 .publink {
   margin-right: 3rem;
+  padding: 0.3rem;
+  border: 0.1rem solid var(--color1);
+  border-radius: 13%;
+}
+
+.publink:hover {
+  border: 0.1rem solid color-mix(in hsl, var(--color1) 80%, var(--color4));
 }
 
 @media (max-width: 319px) {
@@ -158,7 +166,7 @@ article .abstract {
   }
   .logo {
     text-align: center;
-    margin: 1rem auto 3rem;
+    margin: 1rem auto 1rem;
   }
   .logo a {
     font-size: 2.4rem;
@@ -187,7 +195,7 @@ article .abstract {
   }
   .logo {
     text-align: center;
-    margin: 1rem auto 3rem;
+    margin: 1rem auto 1rem;
   }
   .logo a {
     font-size: 2.4rem;

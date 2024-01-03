@@ -10,12 +10,15 @@
         $venue$.$if(award)$ <strong>$award$</strong>.$endif$
     </section>
 
-    <br/>
-
     <section class="publinks">
         $if(paperlink)$<a class="publink" href="$paperlink$">Paper</a>$endif$
         $if(posterlink)$<a class="publink" href="$posterlink$">Poster</a>$endif$
         $if(slideslink)$<a class="publink" href="$slideslink$">Slides</a>$endif$
+        $if(bibtexsource)$
+            <a class="publink" href="$bibtexsource$" onclick="copyFileToClipboard(event)">
+                <i class="fa-solid fa-copy" id="ibibcopy"></i> BibTeX
+            </a>
+        $endif$
     </section>
 
     <section class="abstract">
