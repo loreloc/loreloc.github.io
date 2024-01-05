@@ -4,6 +4,10 @@ import           Data.Monoid (mappend)
 import           Hakyll
 --------------------------------------------------------------------------------
 
+root :: String
+root = "https://loreloc.github.io"
+
+
 main :: IO ()
 main = hakyll $ do
     match "css/*" $ do
@@ -47,9 +51,21 @@ main = hakyll $ do
 
     match "templates/*" $ compile templateBodyCompiler
 
---------------------------------------------------------------------------------
+    create ["sitemap.xml"] $ do
+        route idRoute
+        compile $ do
+            publications <- recentFirst =<< loadAll "publications/*"
+            singlePages <- loadAll (fromList ["index.markdown"])
+            let pages = publications `mappend` singlePages
+                sitemapCtx =
+                    constField "root" root `mappend`
+                    listField "pages" publicationCtx (return pages)
+            makeItem ""
+                >>= loadAndApplyTemplate "templates/sitemap.xml" sitemapCtx
+
 
 publicationCtx :: Context String
 publicationCtx =
+    constField "root" root `mappend`
     dateField "published" "%B %e, %Y" `mappend`
     defaultContext
