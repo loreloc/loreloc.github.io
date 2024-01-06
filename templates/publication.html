@@ -11,13 +11,13 @@
     </section>
 
     <section class="publinks">
-        $if(paperlink)$<a class="publink" href="$paperlink$">Paper</a>$endif$
-        $if(posterlink)$<a class="publink" href="$posterlink$">Poster</a>$endif$
-        $if(slideslink)$<a class="publink" href="$slideslink$">Slides</a>$endif$
+        $if(paperlink)$<a class="pubbutton" href="$paperlink$">Paper</a>$endif$
+        $if(posterlink)$<a class="pubbutton" href="$posterlink$">Poster</a>$endif$
+        $if(slideslink)$<a class="pubbutton" href="$slideslink$">Slides</a>$endif$
         $if(bibtexsource)$
-            <a class="publink" href="$bibtexsource$" onclick="copyFileToClipboard(event)">
-                <i class="fa-solid fa-copy" id="ibibcopy"></i> BibTeX
-            </a>
+            <button class="pubbutton" onclick="copyFileToClipboard('$bibtexsource$')">
+                <i class="fa-regular fa-copy" id="ibibcopy"></i> BibTeX
+            </button>
         $endif$
     </section>
 

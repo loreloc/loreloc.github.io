@@ -1,18 +1,15 @@
-async function copyFileToClipboard(event) {
-    event.preventDefault()
-    let href = event.target.getAttribute('href')
-
-    let response = await fetch(href)
+async function copyFileToClipboard(filepath) {
+    let response = await fetch(filepath)
     if (!response.ok) {
-        window.location.href = href // rely on showing 404
+        window.location.href = filepath // rely on showing 404
         return
     }
     let responseContent = await response.text()
 
     navigator.clipboard.writeText(responseContent).catch(
         () => {
-            window.location.href = href // rely on downloading the file instead
+            window.location.href = filepath // rely on downloading the file instead
             return
         })
-    document.getElementById('ibibcopy').className = "fa-solid fa-square-check"
+    document.getElementById('ibibcopy').className = "fa-solid fa-copy"
 }

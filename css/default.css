@@ -137,14 +137,18 @@ article .abstract {
   margin: 0rem auto;
 }
 
-.publink {
+.pubbutton {
   padding: 0.3rem;
+  border-radius: 6%;
   border: 0.1rem solid var(--color1);
-  border-radius: 13%;
+  color: var(--color1);
+  font-weight: bold;
+  background-color: #fff;
 }
 
-.publink:hover {
+.pubbutton:hover {
   border: 0.1rem solid color-mix(in hsl, var(--color1) 80%, var(--color4));
+  color: color-mix(in hsl, var(--color1) 80%, var(--color4));
 }
 
 @media (max-width: 319px) {
@@ -174,7 +178,7 @@ article .abstract {
     display: block;
     line-height: 1.6;
   }
-  .publink {
+  .pubbutton {
     margin-right: 2rem;
   }
 }
@@ -206,7 +210,7 @@ article .abstract {
     display: inline;
     margin: 0 0.6rem;
   }
-  .publink {
+  .pubbutton {
     margin-right: 2rem;
   }
 }
@@ -240,7 +244,7 @@ article .abstract {
     float: left;
     font-size: 1.8rem;
   }
-  .publink {
+  .pubbutton {
     margin-right: 3.2rem;
   }
 }

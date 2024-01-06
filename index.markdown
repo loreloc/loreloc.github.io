@@ -1,5 +1,5 @@
 ---
-title: Index
+title: Home
 ---
 
 <img class="propic" src="/static/propic.png"/>
