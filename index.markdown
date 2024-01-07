@@ -2,7 +2,7 @@
 title: Home
 ---
 
-<img class="propic" src="/static/propic.png"/>
+<img class="propic" src="/static/propic.jpg"/>
 
 <p style="text-align: justify; text-justify: inter-word;">
     Hi! I am a PhD Student at the [Institute for Adaptive and Neural Computation](https://web.inf.ed.ac.uk/anc) and part of the [APRIL research lab](http://april-tools.github.io/) in Edinburgh, supervised by [Dr. Antonio Vergari](http://nolovedeeplearning.com) and [Dr. Iain Murray](https://homepages.inf.ed.ac.uk/imurray2/). My research interests include (tractable) generative models, neurosymbolic AI, and anything that can be found at their intersection.
