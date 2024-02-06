@@ -10,6 +10,7 @@ abstract: Some of the most successful knowledge graph embedding (KGE) models for
 spotlink: /static/publications/how-to-turn-your-kge/spot.png
 paperlink: https://openreview.net/forum?id=RSGNGiB1q4
 posterlink: /static/publications/how-to-turn-your-kge/poster.pdf
+talklink: https://nips.cc/virtual/2023/oral/73848
 slideslink: /static/publications/how-to-turn-your-kge/slides.pdf
 bibtexsource: /static/publications/how-to-turn-your-kge/loconte2023how.bib
 ---
