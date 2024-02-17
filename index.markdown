@@ -16,9 +16,10 @@ title: Home
     document.write("<a href=\"ma" + "il" + "to:" + "l." + "loconte" + "\x40" + "sms." + "ed.ac.u" + "k" + "\">" + "l." + "loconte" + "\x40" + "sms." + "ed.ac.u" + "k" + "<\/a>")
 </script>
 
-<b><a href="/static/cv.pdf">Curriculum Vitae</a></b>
+<h2 style="text-align: right;"><a href="/static/cv.pdf">Curriculum Vitae</a></h2>
 
 <h2>Featured publications</h2>
 For a complete list refer to the [Semantic Scholar profile](https://www.semanticscholar.org/author/Lorenzo-Loconte/2186995233).
 
 $partial("templates/publication-list.html")$
+
